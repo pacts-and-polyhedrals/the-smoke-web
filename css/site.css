@@ -100,3 +100,46 @@
   .outcome-grid article{min-width:0}
 }
 @media(prefers-reduced-motion:reduce){.brand-campaign-card{transition:none!important}}
+
+
+
+/* v1.4 — device preview section for the recreated Blower and watch assets */
+.device-preview-section{border-top:1px solid var(--stroke);background:linear-gradient(180deg,#0f1c22 0%,#0b1419 100%)}
+.device-preview-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.82fr);gap:22px;align-items:stretch}
+.device-preview-grid--play{align-items:start}
+.device-preview-card{display:flex;flex-direction:column;min-width:0;background:#0a151a;border:1px solid #36515a;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.22)}
+.device-preview-media{display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(circle at top,#18313b 0,#0b1419 72%)}
+.device-preview-media img{width:100%;height:auto;object-fit:contain}
+.device-preview-media--dashboard{min-height:360px}
+.device-preview-media--watch{min-height:360px;padding:24px}
+.device-preview-media--watch img{max-width:260px}
+.device-preview-copy{display:flex;flex-direction:column;gap:12px;padding:22px 22px 24px;border-top:1px solid #2d4149;flex:1}
+.device-preview-copy h3{font:900 clamp(2rem,3.6vw,3.35rem)/.9 var(--head);letter-spacing:.01em;text-transform:uppercase}
+.device-preview-copy p{color:#bfd0ce;max-width:52ch}
+.device-preview-card--watch .device-preview-copy h3{font-size:clamp(2rem,3vw,2.75rem)}
+@media(max-width:980px){.device-preview-grid{grid-template-columns:1fr}.device-preview-media--dashboard,.device-preview-media--watch{min-height:0}.device-preview-media--watch img{max-width:240px}}
+@media(max-width:520px){.device-preview-copy{padding:18px}.device-preview-copy h3{font-size:clamp(2.2rem,10vw,3.1rem)}.device-preview-card--watch .device-preview-copy h3{font-size:clamp(2rem,9vw,2.55rem)}.device-preview-media{padding:14px}}
+
+
+/* v1.5 / transparent active-beta status and maker links on every page. */
+.beta-strip{background:#152930;border-bottom:1px solid #405d63;color:var(--paper)}
+.beta-strip-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;min-height:56px}
+.beta-strip-copy{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px}
+.beta-strip-label{flex:none;display:inline-flex;align-items:center;gap:9px;color:var(--amber);font:800 .65rem var(--mono);letter-spacing:.14em;white-space:nowrap}
+.beta-strip-label:before{content:"";width:8px;height:8px;background:var(--amber);border-radius:50%;box-shadow:0 0 0 3px rgba(239,186,104,.13)}
+.beta-strip-copy p{color:#d3dedc;font-size:.79rem;line-height:1.45;margin:0}
+.beta-strip-copy p strong{color:var(--paper)}
+.beta-strip-link{font:700 .65rem var(--mono);letter-spacing:.08em;color:var(--mint);border-bottom:1px solid rgba(120,221,210,.55);padding-bottom:3px;white-space:nowrap}
+.beta-strip-link:hover{color:var(--white);border-color:var(--white)}
+.hero-copy .desc .beta-hero-text{display:block;margin-top:8px;color:var(--amber);font-size:.9em}
+.beta-play-panel{display:flex;align-items:flex-start;gap:14px 22px;flex-wrap:wrap;background:#172c32;border:1px solid #547274;border-left:4px solid var(--amber);padding:18px 21px;margin:-8px 0 28px;scroll-margin-top:110px}
+.beta-play-kicker{color:var(--amber);font:800 .69rem var(--mono);letter-spacing:.09em;white-space:nowrap}
+.beta-play-panel p{max-width:770px;flex:1;min-width:min(100%,230px);font-size:.89rem;line-height:1.55;color:#c9d6d2}
+.beta-play-panel p strong{color:var(--paper)}
+.beta-play-panel a{font:700 .7rem var(--mono);color:var(--mint);border-bottom:1px solid var(--mint);padding-bottom:3px}
+.footer-studio-links{min-width:0}
+.footer-studio-note{color:var(--muted);font-size:.77rem;line-height:1.5;margin-top:16px}
+@media(min-width:1081px){.site-footer .footer-inner{grid-template-columns:minmax(260px,1.25fr) repeat(3,minmax(0,.75fr));gap:clamp(20px,2.6vw,36px)}}
+@media(max-width:1080px) and (min-width:781px){.site-footer .footer-inner{grid-template-columns:1.2fr 1fr;gap:34px}.footer-studio-links{grid-column:2}}
+@media(max-width:780px){.site-footer .footer-inner{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}.footer-studio-links{grid-column:auto}.beta-strip-inner{align-items:flex-start;gap:9px}.beta-strip-copy{gap:7px 10px}}
+@media(max-width:520px){.site-footer .footer-inner{grid-template-columns:minmax(0,1fr)}.beta-strip-inner{flex-wrap:wrap;padding:12px 0;gap:7px}.beta-strip-copy{gap:7px}.beta-strip-copy p{font-size:.76rem}.beta-strip-link{margin-left:18px}.beta-play-panel{gap:9px 12px;padding:16px}.beta-play-panel p{min-width:100%}}

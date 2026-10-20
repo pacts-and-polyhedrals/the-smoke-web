@@ -1,4 +1,4 @@
-# THE SMOKE — Pacts & Polyhedrals Website v1.3
+# THE SMOKE - Pacts & Polyhedrals Website v1.5
 
 A **standalone six-page website dedicated exclusively to The Smoke** tabletop roleplaying game.
 
@@ -34,7 +34,7 @@ The site now uses the **approved diamond logo** from the website and complete ed
 - Homepage: three clickable illustrations lead to city, missions and play.
 - City, missions and play pages: each features its corresponding illustration with a contextual link or working interactive Blower preview.
 
-The website is **v1.3**; this does not change the Foundry game ZIP version **v0.5.6**. Images are served locally from the same folder, with no external fonts, image CDN or third-party scripts required.
+The website is **v1.5**. Its gameplay data was sourced from the Foundry **v0.5.6** development package; Foundry **v0.5.7** is a separate, newer beta build in the project archive. Images are served locally from the same folder, with no external fonts, image CDN or third-party scripts required.
 
 ## Pages
 
@@ -60,7 +60,7 @@ There is **no blanket ban on fast travel**. Characters can travel across the con
 
 ## Disclosure / versioning
 
-The local Foundry **v0.5.6** ZIP supplied to build this site was described as release-ready but *not yet confirmed published or live-tested*. The website links to the GitHub **releases listing** instead of claiming that version is installed. The public player book remains the **v0.5.0 Homebrewery edition**.
+The local Foundry **v0.5.6** ZIP used as a source for this site was described as release-ready but *not yet confirmed published or live-tested*. The project has since produced a separate **v0.5.7 beta** build; this website does not claim that either version is published. The website links to the GitHub **releases listing** instead of claiming that version is installed. The public player book remains the **v0.5.0 Homebrewery edition**.
 
 The currently shipped Foundry self-play mode requires an **online active GM client** for world state. The site does not imply autonomous online hosting or fully automatic NPC conversations. `125` jobs counts 12 opening + 93 further faction commissions + 20 local cases.
 
@@ -71,3 +71,17 @@ The Smoke: Created by Pacts & Polyhedrals. Game design: Benjamin Vale. Covenant 
 All real location names and geography are used in an invented tabletop game; venue interiors, companies and crimes are fictional and do not describe real locations or organisations.
 
 Only player-facing material is intentionally in the deployable site. **Do not publicly add or link the GM-only Campaign Book or GM journal datasets** if you want players to discover the mystery in play.
+
+
+## v1.4 website update
+- Added recreated Blower and London watch interface assets to the website.
+- New PNG assets live in `assets/brand/graphics/04-The-Blower-Live-Dashboard.png` and `assets/brand/graphics/05-The-Smoke-Watch-Display.png`.
+- Homepage and `play.html` now showcase these interface visuals in relevant sections.
+
+
+## v1.5 - Beta testing status and official studio links
+
+- The Smoke is **currently in beta testing**. Every page carries a visible beta status notice linking to the dedicated explanation on `play.html#beta-status`. The homepage, major page introductions, player resource copy, Foundry release card, player FAQ and search/social descriptions reflect the same status.
+- Beta copy does **not** claim that the game is finished or that every release is published. GitHub release availability must be checked at the source. The website and the promotional assets remain independent of the Foundry runtime.
+- The footer of all six pages now links to the official [Pacts & Polyhedrals website](https://pacts-and-polyhedrals.github.io/pacts) and [DM Asmo's StartPlaying GM profile](https://startplaying.games/gm/dmasmo). The latter is a general GM profile; no Smoke beta session availability is implied.
+- The new website archive is version **v1.5**; the previous **v1.4** folder is preserved unchanged.

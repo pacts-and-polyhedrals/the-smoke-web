@@ -18,3 +18,15 @@
 ## v1.1 — Creator credit
 
 - Corrected public site branding to Pacts & Polyhedrals.
+
+## v1.4
+- Added the recreated Blower dashboard artwork to the homepage and Get Playing page.
+- Added the recreated London watch display artwork to the homepage and Get Playing page.
+- Added CSS for the new device preview layout and copied the new PNG assets into `assets/brand/graphics/`.
+
+## v1.5 - Beta testing status and footer links
+- Added a visible site-wide beta status message and an accessible beta details destination.
+- Updated all six page summaries and SEO/social descriptions to identify the beta stage accurately.
+- Updated player and Foundry getting-started text to set appropriate playtesting expectations.
+- Added the Pacts & Polyhedrals studio website and DM Asmo StartPlaying profile to the footer of all six pages, with safe external links.
+- No changes to game rules, dice code, mission filters, atlas controls, or character data.
