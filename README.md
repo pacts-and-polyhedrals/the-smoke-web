@@ -1,8 +1,8 @@
-# THE SMOKE — Covenant Design Website
+# THE SMOKE — Pacts & Polyhedrals Website v1.3
 
 A **standalone six-page website dedicated exclusively to The Smoke** tabletop roleplaying game.
 
-Created by Covenant Design, using actual vector faction emblems, illustrated London maps, venue maps, player rulebook and game data from the supplied **The Smoke v0.5.6 Foundry development package** and the **Homebrewery v0.5.0 player book**.
+The Smoke is created by **Pacts & Polyhedrals**, with game design by Benjamin Vale. This website uses actual vector faction emblems, illustrated London maps, venue maps, player rulebook and game data from the supplied **The Smoke v0.5.6 Foundry development package** and the **Homebrewery v0.5.0 player book**.
 
 ## Opening locally
 
@@ -24,14 +24,30 @@ GitHub Pages example: create a new repository named `the-smoke-website`, upload 
 
 There is **no invented signup backend**, no user login, no purchases, no database, no radio stream bundled, and no claims that a local Foundry build is already published. The Blower is an informational demo.
 
+## New official visual branding (website v1.3)
+
+The site now uses the **approved diamond logo** from the website and complete editable branding pack created for The Smoke, not the older placeholder mark. The correct mint-outlined diamond, zigzag route and pink diamond appear in the header, footer and favicon. All logo variants and the three promotional SVG graphics have been copied to `assets/brand/`, together with PNG export versions for printing/social use.
+
+- `assets/brand/logos/` — symbol-only, horizontal and stacked lockups, wordmark-only, one-colour variant and corrected favicon, each as SVG and PNG.
+- `assets/brand/graphics/` — 01 *The City Is the Board* (landscape), 02 *Nick a Bike, Make a Name* (portrait), 03 *The Blower* (square), each as SVG and PNG.
+- Header: symbol-only + wordmark; footer: official full horizontal logo; browser tab: corrected favicon.
+- Homepage: three clickable illustrations lead to city, missions and play.
+- City, missions and play pages: each features its corresponding illustration with a contextual link or working interactive Blower preview.
+
+The website is **v1.3**; this does not change the Foundry game ZIP version **v0.5.6**. Images are served locally from the same folder, with no external fonts, image CDN or third-party scripts required.
+
 ## Pages
 
-- `index.html` — branded landing page, city/crew overview, interactive Heat demo.
-- `city.html` — actual 20-zone interactive atlas plus venue interiors.
+- `index.html` — branded landing page, 3-image interactive campaign artwork, city/crew overview, interactive Heat demo.
+- `city.html` — actual 20-zone interactive atlas, official city branding graphic and venue interiors.
 - `factions.html` — twelve genuine faction emblems, descriptions, patrons and dossier overlays.
-- `rules.html` — stats, exact d6 Effort + exploding stat die test roll and outcomes, driving/Heat/Rep primer.
-- `missions.html` — publicly safe teaser board (15 selected jobs), without GM-only campaign spoilers.
-- `play.html` — player book resource, Foundry project and compatibility notes.
+- `rules.html` — stats, exact d6 Effort + exploding stat die test roll and outcomes, driving/Heat/Rep primer, taxi and GM travel options.
+- `missions.html` — The Chainring graphic and publicly safe teaser board (15 selected jobs), without GM-only campaign spoilers.
+- `play.html` — The Blower branding graphic and interactive Blower preview, player book resource, Foundry project and compatibility notes.
+
+## Travel in The Smoke
+
+There is **no blanket ban on fast travel**. Characters can travel across the connected streets on foot, by bicycle, in their own vehicle, or by taking a taxi. The GM has control of **fast travel for any vehicle** and can choose to move a journey along when playing out every road section is unnecessary. When a journey is played in detail, the connected streets, sat nav, vehicle rules and pursuits still matter. The public website describes these options rather than implying every trip must be simulated.
 
 ## Editing
 
@@ -39,7 +55,7 @@ There is **no invented signup backend**, no user login, no purchases, no databas
 - Interactions: `js/site.js`.
 - Game data: `js/content.js` (generated from the game, but human-editable JavaScript).
 - Copy and page structure: the six HTML files.
-- Game artwork: `assets/`. These are compressed web-sized exports of supplied art. Full-resolution assets remain in the Foundry package.
+- Game artwork: `assets/`. The original city/faction art is supplied as web-sized exports from Foundry; official branding SVGs and large PNGs are kept intact in `assets/brand/`.
 - Source player book: `downloads/The-Smoke-Player-Rulebook-Homebrewery.txt`.
 
 ## Disclosure / versioning
@@ -50,7 +66,7 @@ The currently shipped Foundry self-play mode requires an **online active GM clie
 
 ## Legal / credits
 
-The Smoke: A Covenant Design production. Game materials credit Benjamin Vale / Pacts & Polyhedrals. Covenant Dice System © 2026 Dracouroboros Ltd., Benjamin Vale and Paige Kibodeaux; all rights reserved. Foundry VTT is a trademark of Foundry Gaming LLC. Icon artwork includes game-icons.net contributions under CC BY 3.0 when used. Radio links point to independent broadcasters; no stream is bundled.
+The Smoke: Created by Pacts & Polyhedrals. Game design: Benjamin Vale. Covenant Dice System © 2026 Dracouroboros Ltd., Benjamin Vale and Paige Kibodeaux; all rights reserved. Foundry VTT is a trademark of Foundry Gaming LLC. Icon artwork includes game-icons.net contributions under CC BY 3.0 when used. Radio links point to independent broadcasters; no stream is bundled.
 
 All real location names and geography are used in an invented tabletop game; venue interiors, companies and crimes are fictional and do not describe real locations or organisations.
 

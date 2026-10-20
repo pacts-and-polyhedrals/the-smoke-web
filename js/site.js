@@ -24,6 +24,7 @@ function initBlower(){
  const panels=$$('[data-blower-panel]',dock),tabs=$$('[data-blower-tab]',dock);
  const setOpen=open=>{dock.setAttribute('aria-hidden',String(!open));trigger.setAttribute('aria-expanded',String(open));trigger.setAttribute('aria-label',open?'Close the Blower':'Open the Blower');if(open){$('[data-blower-tab]',dock)?.focus();}else{trigger.focus();}};
  trigger.addEventListener('click',()=>setOpen(dock.getAttribute('aria-hidden')==='true'));
+ $$('[data-open-blower]').forEach(button=>button.addEventListener('click',()=>{if(dock.getAttribute('aria-hidden')==='true')setOpen(true);else $('[data-blower-tab]',dock)?.focus();}));
  close.addEventListener('click',()=>setOpen(false));
  tabs.forEach((tab,index)=>tab.addEventListener('click',()=>{tabs.forEach(t=>t.setAttribute('aria-selected',String(t===tab)));panels.forEach(p=>p.classList.toggle('active',p.dataset.blowerPanel===tab.dataset.blowerTab));}));
  dock.addEventListener('keydown',e=>{if(e.key==='Escape')setOpen(false);if(e.key==='ArrowRight'||e.key==='ArrowLeft'){const active=tabs.findIndex(t=>t.getAttribute('aria-selected')==='true');const next=(active+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tabs[next].click();tabs[next].focus();}});
