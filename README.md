@@ -85,3 +85,7 @@ Only player-facing material is intentionally in the deployable site. **Do not pu
 - Beta copy does **not** claim that the game is finished or that every release is published. GitHub release availability must be checked at the source. The website and the promotional assets remain independent of the Foundry runtime.
 - The footer of all six pages now links to the official [Pacts & Polyhedrals website](https://pacts-and-polyhedrals.github.io/pacts) and [DM Asmo's StartPlaying GM profile](https://startplaying.games/gm/dmasmo). The latter is a general GM profile; no Smoke beta session availability is implied.
 - The new website archive is version **v1.5**; the previous **v1.4** folder is preserved unchanged.
+
+
+## v1.6 — Founders Beta storefront handoff
+The public Smoke website remains a separate six-page promotional site. A persistent beta offer strip, header link, homepage CTA, Get Playing feature and footer link now lead to the official Pacts & Polyhedrals product page at https://pacts-and-polyhedrals.github.io/pacts/the-smoke.html. This site does not contain payment credentials, paid release ZIPs, buyer data or entitlement logic. Pricing and availability are determined by the secure Worker, never the marketing site. Do not publish the Founders Beta as live before the studio approves licensing/terms/testing.

@@ -30,3 +30,9 @@
 - Updated player and Foundry getting-started text to set appropriate playtesting expectations.
 - Added the Pacts & Polyhedrals studio website and DM Asmo StartPlaying profile to the footer of all six pages, with safe external links.
 - No changes to game rules, dice code, mission filters, atlas controls, or character data.
+
+
+## v1.6 — storefront handoff (pre-launch)
+- Added prominent link to the official Pacts & Polyhedrals Founders Beta offer across all six pages.
+- Added CTA on homepage and dedicated Get Playing explanation of $5 beta and later separate $15 upgrade.
+- No checkout, protected files or buyer data are hosted on the promotional website.
